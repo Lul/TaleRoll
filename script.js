@@ -221,6 +221,7 @@ function Roll() {
     dices = [];
     modifiers = [];
     window.diceCount = {};
+    refreshDisplay();
 }
 
 // Function to update the modifier button text based on toggle state
