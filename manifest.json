@@ -1,0 +1,42 @@
+{
+  "manifestVersion": 1,
+  "name": "TaleRoll Demo",
+  "summary": "A fresh take on a dice rolling symbiote",
+  "descriptionFilePath": "/README.md",
+  "version": "0.0.2",
+  "license": "MIT",
+  "about": {
+    "website": "https://www.github.com/Lul/TaleRoll",
+    "authors": ["Dylan Barrett", "John Thiell"]
+  },
+  "kind": "webView",
+  "entryPoint": "/index.html",
+  "api": {
+    "version": "0.1",
+    "initTimeout": 10,
+    "subscriptions": {
+      "dice": {
+        "onRollResults": "handleRollResult"
+      },
+      "symbiote": {
+        "onVisibilityEvent": "logSymbioteEvent",
+        "onStateChangeEvent": "logSymbioteEvent"
+      }
+    },
+    "interop": {
+      "id": "00c80a54-174c-4365-a85d-3df51b981f97"
+    }
+  },
+  "environment": {
+    "capabilities": [
+      "playAudio"
+    ],
+    "extras": [
+      "diceFinder",
+      "icons",
+      "fonts",
+      "colorStyles"
+    ],
+    "webViewBackgroundColor": "#000"
+  }
+}
