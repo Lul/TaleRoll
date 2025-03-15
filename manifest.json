@@ -1,9 +1,9 @@
 {
   "manifestVersion": 1,
-  "name": "TaleRoll Demo",
+  "name": "TaleRoll ",
   "summary": "A fresh take on a dice rolling symbiote",
   "descriptionFilePath": "/README.md",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "about": {
     "website": "https://www.github.com/Lul/TaleRoll",
