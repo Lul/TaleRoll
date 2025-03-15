@@ -11,7 +11,13 @@
     <div class="max-w-6xl mx-auto">
         <div class="bg-gray-800 rounded-lg shadow-lg p-6">
             <h1 class="text-3xl md:text-4xl font-bold text-center mb-6 text-white">TaleRoll</h1>
-            <h2 id="roll-display" class="text-white">Roll:</h2>
+            
+            <!-- Static "Roll:" text with dynamic roll result -->
+            <div class="flex items-center">
+                <h2 class="text-white mr-2">Roll:</h2>
+                <span id="roll-display" class="text-white font-bold"></span> <!-- Updated roll result here -->
+            </div>
+
             <!-- Dice Section -->
             <div class="mb-8">
                 <h2 class="text-xl md:text-2xl font-semibold mb-4 text-white">Dice</h2>
@@ -96,6 +102,7 @@
             </div>
         </div>
     </div>
+
 <script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 </body>
